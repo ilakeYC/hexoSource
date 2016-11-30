@@ -9,7 +9,7 @@ tags:
 
 ---
 
-![图片大小：225KB](http://upload-images.jianshu.io/upload_images/1644195-b8cddb2b1a283229.gif?imageMogr2/auto-orient/strip)
+![](http://upload-images.jianshu.io/upload_images/1644195-b8cddb2b1a283229.gif?imageMogr2/auto-orient/strip)
 
 
 <!-- more -->
@@ -32,13 +32,13 @@ tags:
 
 ####结构如下：
 
-![图片大小: 167KB](http://upload-images.jianshu.io/upload_images/1644195-e671e44863e5814d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](http://upload-images.jianshu.io/upload_images/1644195-e671e44863e5814d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ---
 
 ####首先我们从 item 开始:
 
-![图片大小: 30KB](http://upload-images.jianshu.io/upload_images/1644195-7f89e11ca8726aa1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](http://upload-images.jianshu.io/upload_images/1644195-7f89e11ca8726aa1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 *不包括下面橘黄色的杠杠！！*
 
 上代码。
@@ -299,8 +299,8 @@ tags:
 
 ####接下来是itemContent:
 
-![图片大小：45KB](http://upload-images.jianshu.io/upload_images/1644195-ff2c59e452502aca.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-![图片大小：27KB](http://upload-images.jianshu.io/upload_images/1644195-8f6d8eaa3a71d2dc.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](http://upload-images.jianshu.io/upload_images/1644195-ff2c59e452502aca.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](http://upload-images.jianshu.io/upload_images/1644195-8f6d8eaa3a71d2dc.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 这个itemContent实际上我命名为：YCSegmentItemsContentView。
 它是承载item的容器，并且来布局item。
@@ -504,7 +504,7 @@ tags:
 ####接下来是segmentView
 
 
-![图片大小：110KB](http://upload-images.jianshu.io/upload_images/1644195-c7d89acb29388dc9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](http://upload-images.jianshu.io/upload_images/1644195-c7d89acb29388dc9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 这个黑色可部分是collectionView，因为他自由度比较高，简单易用~
 `segmentView`将`item`和`itemContent`结合在一起：
@@ -727,13 +727,10 @@ tags:
 
 ```
 
-![图片大小：225KB](http://upload-images.jianshu.io/upload_images/1644195-b8cddb2b1a283229.gif?imageMogr2/auto-orient/strip)
+![](http://upload-images.jianshu.io/upload_images/1644195-b8cddb2b1a283229.gif?imageMogr2/auto-orient/strip)
 
 没错，就是这个样子~
 
 >源码：https://github.com/ilakeYC/YCSegment
 
 ---
-
-> **欢迎大家的评论或反馈**
-> iLakeYC 感谢各位的耐心阅读
