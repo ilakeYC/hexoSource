@@ -38,13 +38,13 @@ Hexo 是一个快速，简单，强有力的博客框架。你可以用[Markdown
 
 输入：
 
-```shell
+```
 npm install -g hexo-cli
 ```
 
 上述命令如果不成功，请尝试:
 
-```shell
+```
 sudo npm install -g hexo
 ```
 
@@ -56,13 +56,13 @@ sudo npm install -g hexo
 
 在终端中前往你所希望的目录，我的目录在`Document/hexoWeblog`。输入：
 
-```shell
+```
 hexo init
 ```
 
 或者直接在你规定的目录初始化
 
-```shell
+```
 hexo init `filePath`
 如：
 hexo init /Users/ilakeyc/Documents/hexoWeblog
@@ -70,7 +70,7 @@ hexo init /Users/ilakeyc/Documents/hexoWeblog
 
 如果你看到控制台输出：
 
-```shell
+```
 You are almost done! Don't forget to run `npm install` before start blogging with Hexo!
 ```
 
@@ -82,13 +82,13 @@ You are almost done! Don't forget to run `npm install` before start blogging wit
 
 在初始化的目录下输入：
 
-```shell
+```
 npm install
 ```
 
 如果失败请尝试：
 
-```shell
+```
 sudo npm install
 ```
 
@@ -98,13 +98,13 @@ sudo npm install
 
 ### 生成静态网站：
 
-```shell
+```
 hexo generate
 ```
 
 或者简写为：
 
-```shell
+```
 hexo g
 ```
 
@@ -112,13 +112,13 @@ hexo g
 
 ### 启动本地服务器调试
 
-```shell
+```
 hexo server
 ```
 
 或者简写为：
 
-```shell
+```
 hexo s
 ```
 通过[http://localhost:4000](http://localhost:4000)查看效果
@@ -140,7 +140,7 @@ hexo s
 
 - **创建SSH Keys**
 
-```shell
+```
 ssh-keygen -t rsa -C "这里是你申请Github账号时的邮箱"
 如：
 ssh-keygen -t rsa -C "xxx@foo.bar"
@@ -151,19 +151,19 @@ ssh-keygen -t rsa -C "xxx@foo.bar"
 
 然后输入：
 
-```shell
+```
 eval "$(ssh-agent -s)"
 ```
 
 然后：
 
-```shell
+```
 ssh-add ~/.ssh/id_rsa
 ```
 
 最后将生成的密钥( 这个词念`mi yue`都是四声 :-) )复制到剪贴板：
 
-```shell
+```
 pbcopy < ~/.ssh/id_rsa.pub
 ```
 
@@ -177,13 +177,13 @@ pbcopy < ~/.ssh/id_rsa.pub
 在`Key`一栏中 `command + v` ，将你的SSH Key粘贴到这里，随后点击`Add Key`保存。
 
 控制台输入：
-```shell
+```
 ssh -T git@github.com
 ```
 
 如果输出结果：
 
-```shell
+```
 Hi username! You've successfully authenticated, but GitHub does not
 ```
 
@@ -191,11 +191,11 @@ Hi username! You've successfully authenticated, but GitHub does not
 
 - **在Git中设置你的用户名和邮箱**
 
-```shell
+```
 git config --global user.name "这里是你申请Github账号时的name"
 ```
 
-```shell
+```
 git config --global user.email "这里是你申请Github账号时的邮箱"
 ```
 
@@ -231,7 +231,7 @@ hexo d
 
 或简写：
 
-```shell
+```
 hexo d -g
 ```
 

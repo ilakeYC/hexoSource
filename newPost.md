@@ -25,28 +25,28 @@ tags:
 
 首先我们需要使用`终端`进入到你的Hexo博客目录下，随后输入：
 
-```shell
+```
 hexo new 一个文章标题
 ```
 
 或简写为：
 
-```shell
+```
 hexo n 一个文章标题
 ```
 
 随后你会看到控制台输出：
 
-```shell
+```
 INFO  Created: ~/Documents/你的博客文件夹/source/_posts/一个文章标题.md
 ```
 即表示创建成功，我们可以根据输出中提示的路径找到新建的文章进行编辑：
 
-```shell
+```
 (进入目录)
 cd source/_posts/
 ```
-```shell
+```
 (或者直接编辑)
 vi source/_posts/一个文章标题.md
 ```

@@ -44,7 +44,7 @@ tags:
 上代码。
 首先新建一个类，继承自UIView。我命名为：YCSegmentViewTitleItem
 自定义一个初始化方法：
-```objc
+```
 @interface YCSegmentViewTitleItem : UIView
 
 ///标题(我们希望可以后期更改标题)
@@ -62,7 +62,7 @@ tags:
 
 意图是给它一个需要显示的字符串和它的位置，然后让它自己去搞定。
 
-```objc
+```
 @interface YCSegmentViewTitleItem ()
 
 ……
@@ -89,7 +89,7 @@ tags:
 而且为毛线我们要给 `self.title` 赋值为`title` !
 其实是这样的:
 
-```objc
+```
 @implementation YCSegmentViewTitleItem
 
 ……
@@ -111,7 +111,7 @@ tags:
 
 这里我用了懒加载的方法来初始化这个`titleLabel`：
 
-```objc
+```
 @implementation YCSegmentViewTitleItem
 
 ………
@@ -142,7 +142,7 @@ tags:
 
 这样，一旦调用初始化方法，就完成了label的赋值操作等。接下来我们还需要布局：
 
-```objc
+```
 ……
 #define _MinWidth  32
 #define _MaxWidth  YCMainScreenWidth / 2
@@ -177,7 +177,7 @@ tags:
 
 然后我们希望在外界可以知道他应该具有的宽度，而且想要方便调用：
 
-```objc
+```
 @interface YCSegmentViewTitleItem : UIView
 
 ……
@@ -202,7 +202,7 @@ tags:
 
 然后希望它被选中时候改变个颜色
 
-```objc
+```
 @interface YCSegmentViewTitleItem : UIView
 ……
 @property (nonatomic,assign) BOOL  highlight;
@@ -221,7 +221,7 @@ tags:
 
 然后我们还需要他能够触发点击事件：
 
-```objc
+```
 @interface YCSegmentViewTitleItem : UIView
 ……
 - (void)addTarget:(id)target action:(SEL)action;
@@ -250,7 +250,7 @@ tags:
 好了，我们已经保存了`target`和`action`，但是什么时候触发？！
 我们希望点击内部并在内部抬起的时候让`target`去执行`action`，所以我们需要一个实例变量来记录是不是在内部点击……
 
-```objc
+```
 @interface YCSegmentViewTitleItem ()
 {
     ……
@@ -308,7 +308,7 @@ tags:
 
 首先我们先自定义初始化方法：
 
-```objc
+```
 @interface YCSegmentItemsContentView : UIView
 ……
 - (instancetype)initWithFrame:(CGRect)frame titles:(NSArray <NSString *>*)titles;
@@ -318,7 +318,7 @@ tags:
 
 我们希望告诉它它应该显示在什么位置，并且显示多少个标题。剩下的让他自己去解决。
 
-```objc
+```
 @interface YCSegmentItemsContentView ()
 {
     CGFloat _buttonWidthSUM;
@@ -398,7 +398,7 @@ tags:
 
 接下来是布局
 
-```objc
+```
 @implementation YCSegmentItemsContentView
 ……
 
@@ -454,7 +454,7 @@ tags:
 @end
 ```
 
-```objc
+```
 @implementation YCSegmentItemsContentView
 ……
 ///这是每一个item的点击事件
@@ -511,7 +511,7 @@ tags:
 
 以下是初始化以及布局：
 
-```objc
+```
 ///接口部分：
 @interface YCSegmentView : UIView
 
@@ -527,7 +527,7 @@ tags:
 @end
 ```
 
-```objc
+```
 @implementation YCSegmentView
 ……
 
@@ -589,7 +589,7 @@ tags:
 
 还有重写KVO发现属性变化后会调用的方法：
 
-```objc
+```
 ……
 - (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary<NSString *,id> *)change context:(void *)context {
 
@@ -610,7 +610,7 @@ tags:
 
 在类的延展中有这样一些属性和变量：
 
-```objc
+```
 @interface YCSegmentView ()<UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout, YCSegmentItemsContentViewDelegate>
 {
     NSArray *_viewControllers;//用来保存所有的控制器
@@ -625,7 +625,7 @@ tags:
 
 剩下的就是实现`collectionView`的协议方法，以及`itemContent`的协议方法：
 
-```objc
+```
 
 - (NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView {
     return _viewControllers.count;
@@ -660,7 +660,7 @@ tags:
 
 接下来我们看一下`YCSegmentViewUnit`类的代码：
 
-```objc
+```
 @interface YCSegmentViewUnit : UICollectionViewCell
 
 @property (nonatomic,strong) UIView *view;
@@ -693,7 +693,7 @@ tags:
 **不！还有非常重要的一点！**
 我们使用了KVO对`collectionView`进行了属性观察，但是如果观察着被释放了，肯定会出现问题，所以我们需要在`YCSegmentView`中重写`- (void)dealloc`方法，在dealloc中移除对collectionView的观察：
 
-```objc
+```
 - (void)dealloc {
     [self.collectionView removeObserver:self forKeyPath:@"contentOffset"];
 }
@@ -701,7 +701,7 @@ tags:
 
 恩，这样子就大功告成了，我们实例化一个看一看~~
 
-```objc
+```
 @implementation ViewController
 
 - (void)viewDidLoad {
