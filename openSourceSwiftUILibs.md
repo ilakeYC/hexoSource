@@ -46,5 +46,67 @@ tags:
 
 ![](https://github.com/AugustRush/Stellar/raw/master/lines.gif)
 
+## **No 5**
+**[Macaw](https://github.com/exyte/Macaw?utm_source=mybridge&utm_medium=blog&utm_campaign=read_more)**：强大易用的矢量物理引擎库 【在 Github 上有 594 星】
+
+![](https://camo.githubusercontent.com/9860a85cbf27ea087b289383be737998496db1ea/68747470733a2f2f7777772e64726f70626f782e636f6d2f732f62366c73707a7a7161383069656c6b2f706572696f6469632d697061642e6769663f646c3d31)
+
+# **Transition UI**
+
+## **No 6**
+**[PagingMenuController](https://github.com/kitasuke/PagingMenuController?utm_source=mybridge&utm_medium=blog&utm_campaign=read_more)**：能够自定义菜单的分页视图控制器 【在 Github 上有 1305 星】
+
+![](https://raw.githubusercontent.com/wiki/kitasuke/PagingMenuController/images/demo4.gif)
+
+## **No 7**
+**[PreviewTransion](https://github.com/Ramotion/Preview-Transition?utm_source=mybridge&utm_medium=blog&utm_campaign=read_more)**：一个简单的图片预览控制器 【在 Github 上有 1025 星】
+
+![](https://raw.githubusercontent.com/Ramotion/preview-transition/master/preview.gif)
+
+## **No 8**
+**[PinterestSwift](https://github.com/demonnico/PinterestSwift?utm_source=mybridge&utm_medium=blog&utm_campaign=read_more)**：像Pinterest一样转场的控制器 【在 Github 上有 1007 星】
+
+![](https://camo.githubusercontent.com/fdae059a7511ddab4e3dfdf5337c1ab85f9e60e9/687474703a2f2f692e737461636b2e696d6775722e636f6d2f30666e43642e676966)
+
+## **No 9**
+**[YouTube Transition](https://github.com/aslanyanhaik/youtube-iOS?utm_source=mybridge&utm_medium=blog&utm_campaign=read_more)**：能够像Youtube iOS app中在右下角观看视频的框架 【在 Github 上有 786 星】
+
+![](https://camo.githubusercontent.com/cfa19d4ba7d4b87e1a1d0a54c1d11d0761b69ae7/687474703a2f2f692e67697068792e636f6d2f687743616848414431744e48612e676966)
+
+## **No 10**
+**[Twicket Segmented Control](https://github.com/twicketapp/TwicketSegmentedControl?utm_source=mybridge&utm_medium=blog&utm_campaign=read_more)**：替代UISegmentedControl的自定义控件 【在 Github 上有 680 星】
+
+![](https://cloud.githubusercontent.com/assets/7887319/18714404/e77e7588-8015-11e6-939b-25f187a8b4d0.gif)
+
+
+# **Pop up UI**
+
+## **No 11**
+**[SCLAlertView-Swift](https://github.com/vikmeup/SCLAlertView-Swift?utm_source=mybridge&utm_medium=blog&utm_campaign=read_more)**：漂亮的动画弹窗控件 【在 Github 上有 3056 星】
+
+![](https://raw.githubusercontent.com/vikmeup/SCPopUpView/master/editScreenshot.png)
+
+## **No 12**
+**[SwiftMessages](https://github.com/SwiftKickMobile/SwiftMessages?utm_source=mybridge&utm_medium=blog&utm_campaign=read_more)**：灵活的提示信息控件 【在 Github 上有 1356 星】
+
+![](https://github.com/SwiftKickMobile/SwiftMessages/raw/master/Demo/demo.png)
+
+## **No 13**
+**[XLActionController](https://github.com/xmartlabs/XLActionController?utm_source=mybridge&utm_medium=blog&utm_campaign=read_more)**：完全可自定义、可扩展的操作表控件 【在 Github 上有 1356 星】
+
+![](https://github.com/xmartlabs/XLActionController/raw/master/Media/demo_twitter.gif)
+
+## **No 14**
+**[Popover](https://github.com/corin8823/Popover?utm_source=mybridge&utm_medium=blog&utm_campaign=read_more)**：像 Facebook app 中的气球样式弹出视图 【在 Github 上有 1356 星】
+
+![](https://github.com/corin8823/Popover/raw/master/ScreenShots/Screenshot.gif)
+
+## **N0 15**
+**[Presentr](https://github.com/IcaliaLabs/Presentr?utm_source=mybridge&utm_medium=blog&utm_campaign=read_more)**：一个自定义视图弹出样式的封装 【在 Github 上有 635 星】
+
+|![](https://camo.githubusercontent.com/6e7c753c5b7c78f9e8b392d2f140f8d62ccf6c8a/687474703a2f2f64616e69656c6f7a616e6f2e636f6d2f50726573656e74722f476966732f416c657274536c6f772e676966)|![](https://camo.githubusercontent.com/2f9bc3bafa1c165466708edf23730a80af98918b/687474703a2f2f64616e69656c6f7a616e6f2e636f6d2f50726573656e74722f476966732f506f707570536c6f772e676966)|![](https://camo.githubusercontent.com/09ebbf88837ca23736cbad029728819c0299b91c/687474703a2f2f64616e69656c6f7a616e6f2e636f6d2f50726573656e74722f476966732f546f7048616c66536c6f772e676966)|![](https://camo.githubusercontent.com/893cd152f5fa34b4dbcbc08489bb717ca55c5e25/687474703a2f2f64616e69656c6f7a616e6f2e636f6d2f50726573656e74722f476966732f4f74686572536c6f772e676966)|
+|-|
+
+
 
 > To Be Continued...
