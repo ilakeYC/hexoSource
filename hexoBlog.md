@@ -134,7 +134,9 @@ hexo s
 
 如果你的GitHub用户名为：xxx ， 则需要一个仓库名为 `xxx.github.io`
 
-![](http://i13.tietuku.com/a866c741cacf10af.png)
+![](http://ilakeyc.oss-cn-shanghai.aliyuncs.com/newRepo.png)
+
+> **注意**：你的用户名在这个页面 Owner 下，见图中红色部分。如果仓库名不匹配，就不能成功访问你仓库的网站了。文档可以参考**[GitHub Pages](https://help.github.com/categories/github-pages-basics/)**
 
 `初始化一个带有README文件的仓库`选项可有可无。
 
