@@ -2,7 +2,8 @@
 title: 手把手教你封装属于自己的分段滚动视图(segmentScrollView)
 date: 2016-04-15 13:26:29
 category:
- - iOS Development
+ -  Developer
+ - Original
 tags:
  - iOS
  - Objective-C
