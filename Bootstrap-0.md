@@ -6,7 +6,7 @@ tags:
 
 ---
 
-![](http://img.4guangnian.com/article_images/foreground/bootstrap.png)
+![](http://upload-images.jianshu.io/upload_images/1644195-d294a734780786bd.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 <!-- more -->
 
@@ -16,7 +16,7 @@ tags:
 
 `Bootstrap` 就是这样一个简洁、直观、强悍的**前端开发框架**，只要学习并遵守它的标准，即使是没有学过网页设计的开发者，也能做出很专业、美观的页面，极大地提高了工作效率。像下面这个漂亮的网站就是基于 `Bootstrap` 来开发的。
 
-![](http://img.4guangnian.com/article_images/foreground/bootstrap/一个站点.png)
+![](http://upload-images.jianshu.io/upload_images/1644195-293c6ee98804329f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 `Bootstrap` 的中文文档地址在这里 [Bootstrap 中文文档](http://v3.bootcss.com/)，目前**主流版本为 3.3.x**。不过因为文档的内容结构比较零散，只是从头到尾把一个个组件拆开来讲一遍，缺乏趣味性和实战性（这也是现在很多教程的通病），因此在本教程中，我们会自己动手开发一个完整的**企业网站**案例，在实践的过程中来学习和理解 Bootstrap这个前端开发框架的知识。
 
@@ -28,13 +28,13 @@ tags:
 
 企业网站是十分常见的一种页面形式。一般包括一个展示企业形象的首页、几个介绍企业资料的文章页、一个“关于”页面。如下就是最终的首页效果。（当然了，这个界面还是比较粗糙的，不过我们这个教程重点是 `Bootstrap` 的学习，如果你要深入学习 CSS 样式方面的知识，请参看我们的相关教程）
 
-![](http://img.4guangnian.com/article_images/foreground/bootstrap/企业网站.jpg)
+![](http://upload-images.jianshu.io/upload_images/1644195-87f648bf35861823.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 #### 项目结构与页面规划
 
 我们先创建站点目录，例如放在 web 站点 `/home/wwwroot/htdocs/wx-xxmm` 下，在里面新建一个 `Template` 目录，用于存放页面 `html` 文件，新建一个  `assets` 目录，存放图片、自定义样式表等静态资源文件，以及一个 `js` 目录，存放自己写的 `javascript` 代码。
 
-![](http://img.4guangnian.com/article_images/foreground/bootstrap/站点目录.png)
+![](http://upload-images.jianshu.io/upload_images/1644195-902874e7f1321da1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 然后在 `Template` 目录里，把这个项目的所有文件创建好：
 
@@ -46,7 +46,7 @@ tags:
 
 首页的效果图前面有展示，它包括这**几个区域**。做任何页面之前，我们都要先把结构规划好，这样脑子里有清晰的思路，工作起来才有效率。
 
-![](http://img.4guangnian.com/article_images/foreground/bootstrap/首页结构.png)
+![](http://upload-images.jianshu.io/upload_images/1644195-6a2cb16e778c2c7b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 - 导航条
 - 轮播图
@@ -59,7 +59,7 @@ tags:
 
 然后准备几张图片素材（分别是轮播图、客户案例、产品截图，各 3 张），把它们放到 `assets` 目录里面。然后在 `assets` 目录里面新建一个 `style.css` 文件，用于保存自定义样式。
 
-![](http://img.4guangnian.com/article_images/foreground/bootstrap/assets目录.png)
+![](http://upload-images.jianshu.io/upload_images/1644195-cf27d3443bdcae8f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 然后在 `Template` 目录里新建文件 `Home_index.html` ，按照上面规划的页面结构，写好这些基础的 HTML 和 CSS 代码，把页面的骨架搭好。
 
@@ -129,7 +129,7 @@ tags:
 
 在浏览器里打开这个页面，看看是否正常访问。因为**没有写任何 CSS 样式代码**，看上去挺丑的。
 
-![](http://img.4guangnian.com/article_images/foreground/bootstrap/基础架子.png)
+![](http://upload-images.jianshu.io/upload_images/1644195-a0e4eb133072b95f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 #### 引入 Bootstrap 框架相关文件
 
@@ -162,7 +162,7 @@ tags:
 
 [下载Bootstrap包含的文件到本地](http://v3.bootcss.com/getting-started/#download)
 
-![](http://img.4guangnian.com/article_images/foreground/bootstrap/bootstrap目录.png)
+![](http://upload-images.jianshu.io/upload_images/1644195-859cd835797da634.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 然后修改 `Home_index.html` 里的引入文件代码，使用**本地引用文件**的方式来使用 `Bootstrap` 。
 
@@ -191,11 +191,13 @@ tags:
 
 刷新页面，你会看到一个蓝色的按钮。**不需要自己写一行 CSS 代码**，只要在页面里面给某个元素指定一个 `class` ，就可以直接显示出预定的样式—— 这就是使用 `Bootstrap` 前端框架的魔力。
 
+![](http://upload-images.jianshu.io/upload_images/1644195-69084ca0f33d5f24.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 #### 使用导航条组件
 
 导航条位于页面最顶部，提供整个网站所有页面的链接，最终效果如下：
 
-![](http://img.4guangnian.com/article_images/foreground/bootstrap/导航条最终效果.png)
+![](http://upload-images.jianshu.io/upload_images/1644195-7e8d7dccdcb6802e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 我们可以直接使用 `Bootstrap` 的`导航条组件`
 
@@ -217,6 +219,8 @@ tags:
 1. 添加一些导航链接 `<li>` ，然后把第一个 `<li>` 的 `class` 指定为 `active` ，表示激活状态。
 
 刷新页面，一个漂亮的导航条就诞生了！我们只是写了一些 HTML 代码，没有写一句 CSS 代码，非常省时省力。
+
+![](http://upload-images.jianshu.io/upload_images/1644195-9c676f7b23b7ec99.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 导航条还漏了一个“网站标题”，把下面这段 `<div class="navbar-header">` 添加到 `<ul class="nav navbar-nav">` 的前面就可以了
 
@@ -245,7 +249,7 @@ tags:
 
 为了实现一个轮播图效果（也有人叫“幻灯片”），以前我们可能会自己写代码，或者去找 `jQuery` 的插件。其实 `Bootstrap` 已经自带了一个轮播组件—— `Carousel` ，效果如下：
 
-![](http://img.4guangnian.com/article_images/foreground/bootstrap/轮播图.png)
+![](http://upload-images.jianshu.io/upload_images/1644195-824f0c9164b64c3d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ```
 <!--轮播图-->
@@ -303,7 +307,7 @@ tags:
 
 刷新页面，几张图片开始自动播放。但是我们会发现一个问题——如果三张图片大小不一致，这个轮播区域会忽大忽小地变化。
 
-![](http://img.4guangnian.com/article_images/foreground/bootstrap/轮播图未设置大小.gif)
+![](http://upload-images.jianshu.io/upload_images/1644195-448f84ba556208e7.gif?imageMogr2/auto-orient/strip)
 
 这种情况就是 `Bootstrap` **力不能及的范围**了，因为**它不知道我们将会使用什么样的素材**，因此要自己写一些**自定义样式**的 CSS 代码来**处理这些特殊的情况**。
 
@@ -322,7 +326,7 @@ tags:
 
 在这个区域中，有三个**宽度均等**的横向排列的小块，每个小块是由一个圆形图片和一些说明文字组成。最终效果如下:
 
-![](http://img.4guangnian.com/article_images/foreground/bootstrap/客户案例列表.png)
+![](http://upload-images.jianshu.io/upload_images/1644195-f684dbfe13d814bf.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 #### 栅格布局
 
@@ -356,7 +360,7 @@ tags:
 
 刷新页面，然后用 Chrome 浏览器的开发工具看看效果，发现整个页面的宽度正好被平均**分成了 3 份**(12/4 = 3)。`栅格系统`自动帮我们计算了这 3 份的宽度。
 
-![](http://img.4guangnian.com/article_images/foreground/bootstrap/栅格.png)
+![](http://upload-images.jianshu.io/upload_images/1644195-32b05fe49748015a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 举一反三，如果要把页面平均分为 6 份，那每一份的 `class` 就应该指定 `col-md-2` (12/6 = 2)；如果是 4 份， `class` 就是 `col-md-3`（12/4 = 3）
 
@@ -417,7 +421,7 @@ tags:
 
 其实 `Bootstrap` 的栅格布局同样可以实现这种“宽度不一致的分割”。最终效果：
 
-![](http://img.4guangnian.com/article_images/foreground/bootstrap/产品截图.png)
+![](http://upload-images.jianshu.io/upload_images/1644195-1c834ba6c1283062.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ```
 <div class="container">
@@ -434,7 +438,7 @@ tags:
 
 在 Chrome 里看到效果如下，确实是左边的一栏相对较窄，右边的一栏较宽一些。
 
-![](http://img.4guangnian.com/article_images/foreground/bootstrap/栅格-48.png)
+![](http://upload-images.jianshu.io/upload_images/1644195-841ec8793127a7ae.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 开始修改“产品截图”区域的代码，从上到下共有三行，每行的一栏是图片，占有 5 份宽度（col-md-5）；另一栏是说明文字，占据剩下的 7 份宽度（col-md-7）。
 
@@ -514,7 +518,7 @@ tags:
 
 新建一个文件 `Home_case.html` ，客户案例详情页实际上和平时常见的 “新闻内容页”、“产品介绍页”非常类似，我们这里先做个简化版。最终效果如下：
 
-![](http://img.4guangnian.com/article_images/foreground/bootstrap/案例详情页.png)
+![](http://upload-images.jianshu.io/upload_images/1644195-277dfb65749ca244.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 #### 布局
 
@@ -538,7 +542,7 @@ tags:
 进入正文区域（在 `<div class="col-md-9">` 内部），首先添加大标题与小标题，在 `Bootstrap` 里有专门的类 `<div class="page-header">` 。
 `<small>` 标签可以让里面的文本大小为父元素的 85%，比如下面的代码中， `<small>` 里面的文本大小，是 `<h1>` 里面其他文本大小的 85%。
 
-![](http://img.4guangnian.com/article_images/foreground/bootstrap/大标题与小标题.png)
+![](http://upload-images.jianshu.io/upload_images/1644195-fca48b3f0a306b58.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ```
 <div class="page-header">
@@ -548,7 +552,7 @@ tags:
 
 #### 内容摘要——使用“引用”
 
-![](http://img.4guangnian.com/article_images/foreground/bootstrap/摘要-引用.png)
+![](http://upload-images.jianshu.io/upload_images/1644195-a0c5176f47176c28.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ```
 <blockquote>
@@ -565,7 +569,7 @@ tags:
 - 着重 `<strong></strong>`
 - 插入的文本 `<ins></ins>`
 
-![](http://img.4guangnian.com/article_images/foreground/bootstrap/文本1.png)
+![](http://upload-images.jianshu.io/upload_images/1644195-2aee8898035a1d22.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ```
 <p>
@@ -582,7 +586,7 @@ tags:
 
 #### 居中对齐
 
-![](http://img.4guangnian.com/article_images/foreground/bootstrap/图片居中.png)
+![](http://upload-images.jianshu.io/upload_images/1644195-48fa598db23f7628.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 在正文中插入一张图片，默认是左对齐的。我们将它用一个 `<div class="text-center">` 包裹起来，这样它内部的所有元素都居中对齐了。
 
@@ -604,7 +608,7 @@ tags:
 
 如果这篇文章是和程序开发有关的，很有可能需要显示一段代码，为了和其他普通文本区分开来，我们要把代码用 `<code>` 或者 `<pre>` 包裹起来，前者是`行内代码`，后者是`块代码`
 
-![](http://img.4guangnian.com/article_images/foreground/bootstrap/代码.png)
+![代码.png](http://upload-images.jianshu.io/upload_images/1644195-a1fdad35411692bc.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ```
 <p>听说 PHP 很简单，常用的函数有<code>echo</code>、<code>is_array</code>、<code>mysql_connect</code>等等</p>
@@ -629,11 +633,10 @@ tags:
 
 在文章的最后，我们可以让用户表达下自己的看法，是喜欢还是讨厌。这里添加两个按钮，一个是“顶”，一个是“踩”，并且用不同的颜色来区分。效果如下：
 
-![](http://img.4guangnian.com/article_images/foreground/bootstrap/顶和踩.png)
-
+![](http://upload-images.jianshu.io/upload_images/1644195-f386ec8410d95287.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 在 `Bootstrap` 框架里，“按钮”这个组件十分常见，属性也比较复杂。我们先从最简单的“**默认按钮**”开始吧。
 
-![](http://img.4guangnian.com/article_images/foreground/bootstrap/默认按钮.png)
+![](http://upload-images.jianshu.io/upload_images/1644195-aaf17559fbd446fa.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ```
 <button class="btn">基本按钮</button>
@@ -657,7 +660,7 @@ tags:
 
 通过添加`btn-lg`、`btn-xs`等 class，还可以调整按钮的**大小**。
 
-![](http://img.4guangnian.com/article_images/foreground/bootstrap/按钮大小.png)
+![](http://upload-images.jianshu.io/upload_images/1644195-140423df902b5fd9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ```
 <button class="btn btn-primary btn-xs">最小的按钮</button>
@@ -683,7 +686,7 @@ tags:
 
 我们最后来处理右侧的区域，这里有一张图片，下方是一个“相关内容”的列表，直接用`<ul><li>`列表元素会在每个列表项前面显示一个圆点，`Bootstrap`里有个作用于`<ul>`的`list-unstyled`类，可以隐藏这个圆点。
 
-![](http://img.4guangnian.com/article_images/foreground/bootstrap/右侧.png)
+![](http://upload-images.jianshu.io/upload_images/1644195-e8c2ad1a346d775f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ```
 <div class="col-md-3">
@@ -710,7 +713,7 @@ tags:
 
 这里还有个很有意思的`<abbr>`标签，给它添加一个`title`属性后，鼠标放在文本上面，会浮动显示一个小提示。
 
-![](http://img.4guangnian.com/article_images/foreground/bootstrap/联系方式.gif)
+![](http://upload-images.jianshu.io/upload_images/1644195-cd898b1d42d0a787.gif?imageMogr2/auto-orient/strip)
 
 ```
 <div class="container">
@@ -728,7 +731,7 @@ tags:
 
 先把这个表单的 HTML 代码写好（默认样式比较丑陋）。
 
-![](http://img.4guangnian.com/article_images/foreground/bootstrap/无样式表单.png)
+![](http://upload-images.jianshu.io/upload_images/1644195-03a6ccd32e62e4a1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ```
 <h2>建议</h2>
@@ -793,7 +796,7 @@ tags:
 
 我们把代码里所有的表单组件全部加上`class="form-control"`
 
-![](http://img.4guangnian.com/article_images/foreground/bootstrap/添加form-control.png)
+![](http://upload-images.jianshu.io/upload_images/1644195-96aff528df0d3160.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 刷新下页面，比之前顺眼多了！已经显示了`Bootstrap`的样式。
 
@@ -803,7 +806,7 @@ tags:
 
 请仔细观察修改后的代码（看起来啰嗦了不少）。
 
-![](http://img.4guangnian.com/article_images/foreground/bootstrap/checkbox和radio.png)
+![](http://upload-images.jianshu.io/upload_images/1644195-ba849e6ba2374460.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ```
 <div class="form-group">
@@ -892,7 +895,7 @@ tags:
 
 好了，现在看起很紧凑了。
 
-![](http://img.4guangnian.com/article_images/foreground/bootstrap/水平表单.png)
+![](http://upload-images.jianshu.io/upload_images/1644195-07005f30778d3071.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 有关表单组件的更多资料，请阅读
 
@@ -908,7 +911,7 @@ tags:
 
 [Bootstrap主题](https://bootswatch.com/)
 
-![](http://img.4guangnian.com/article_images/foreground/bootstrap/bootswatch.png)
+![](http://upload-images.jianshu.io/upload_images/1644195-6ea78c3c876b4d3f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 找一个你最喜欢的，点击“Download”按钮，会下载一个 `bootstrap.min.css`到本地。我们把 `assets`目录里旧的那个同名文件改成`bootstrap_default.min.css`（不要删除，以备以后可以恢复），然后把这个新的文件复制进去。
 
