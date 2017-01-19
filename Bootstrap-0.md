@@ -2,7 +2,12 @@
 
 title: 最好懂的 Bootstrap 实战案例教程
 date: 2017-01-18 16:47:25
+category:
+- Front-End Web Developer
+- Repost
 tags:
+- Front-End Web
+- Bootstrap
 
 ---
 
@@ -19,10 +24,6 @@ tags:
 ![](http://upload-images.jianshu.io/upload_images/1644195-293c6ee98804329f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 `Bootstrap` 的中文文档地址在这里 [Bootstrap 中文文档](http://v3.bootcss.com/)，目前**主流版本为 3.3.x**。不过因为文档的内容结构比较零散，只是从头到尾把一个个组件拆开来讲一遍，缺乏趣味性和实战性（这也是现在很多教程的通病），因此在本教程中，我们会自己动手开发一个完整的**企业网站**案例，在实践的过程中来学习和理解 Bootstrap这个前端开发框架的知识。
-
-> **注意**
->
-> 为了锻炼你阅读文档和主动学习的能力，我们只会把每个知识点最核心的知识告诉你，而它的扩展知识将以链接的形式附在后面。
 
 ----
 
