@@ -31,13 +31,13 @@ tags:
 
 ---
 
-####结构如下：
+#### 结构如下：
 
 ![](http://upload-images.jianshu.io/upload_images/1644195-e671e44863e5814d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ---
 
-####首先我们从 item 开始:
+#### 首先我们从 item 开始:
 
 ![](http://upload-images.jianshu.io/upload_images/1644195-7f89e11ca8726aa1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 *不包括下面橘黄色的杠杠！！*
@@ -298,7 +298,7 @@ tags:
 
 ---
 
-####接下来是itemContent:
+#### 接下来是itemContent:
 
 ![](http://upload-images.jianshu.io/upload_images/1644195-ff2c59e452502aca.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 ![](http://upload-images.jianshu.io/upload_images/1644195-8f6d8eaa3a71d2dc.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
@@ -502,7 +502,7 @@ tags:
 好了，现在这个控件也可以实现和其他控件的交互了。
 
 ---
-####接下来是segmentView
+#### 接下来是segmentView
 
 
 ![](http://upload-images.jianshu.io/upload_images/1644195-c7d89acb29388dc9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
